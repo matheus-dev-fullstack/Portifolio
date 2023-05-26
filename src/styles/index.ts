@@ -5,7 +5,7 @@ export const cores = {
   corTexto: '#000',
   corFundo: '#f2f2f2',
   corSecundaria: '#d9d9d9',
-  corPrincipal: '#f1f3f4',
+  corPrincipal: '#f1f3f4'
 }
 
 export const GlobalStyle = createGlobalStyle`
@@ -29,20 +29,20 @@ export const MainContainer = styled.div`
   height: 100%;
 `
 export const Button = styled.button`
-    display: flex;
-    border-radius: 50%;
-    border: none;
-    height: 45px;
-    width: 45px;
-    justify-content: center;
-    align-items: center;
-    background-color: ${cores.corFundo};
+  display: flex;
+  border-radius: 50%;
+  border: none;
+  height: 45px;
+  width: 45px;
+  justify-content: center;
+  align-items: center;
+  background-color: ${cores.corFundo};
 
-    :hover {
-        background-color: #e6e6e6;
-    }
-    img {
-        width: 50%;
-        height: 50%;
-    }
+  :hover {
+    background-color: #e6e6e6;
+  }
+  img {
+    width: 50%;
+    height: 50%;
+  }
 `

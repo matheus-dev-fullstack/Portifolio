@@ -1,23 +1,23 @@
-import React from 'react';
-import Header from './components/Header';
+import React from 'react'
+import Header from './components/Header'
 import BarraLateral from './containers/BarraLateral'
-import { GlobalStyle } from './styles';
-import CaixaDeEmails from './containers/CaixaDeEmails';
+import { GlobalStyle } from './styles'
+import CaixaDeEmails from './containers/CaixaDeEmails'
 import * as S from './styles'
-import BarraUtilidades from './components/BarraUtilidades';
+import BarraUtilidades from './components/BarraUtilidades'
 
 function App() {
   return (
     <>
-    <GlobalStyle />
-    <div className="App">
-      <Header />
-      <S.MainContainer>
-        <BarraLateral />
-        <CaixaDeEmails/>
-        <BarraUtilidades/>
-      </S.MainContainer>
-    </div>
+      <GlobalStyle />
+      <div className="App">
+        <Header />
+        <S.MainContainer>
+          <BarraLateral />
+          <CaixaDeEmails />
+          <BarraUtilidades />
+        </S.MainContainer>
+      </div>
     </>
   )
 }
