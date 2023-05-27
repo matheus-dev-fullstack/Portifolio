@@ -58,6 +58,25 @@ export const ButtonsEnd = styled(ButtonAjustes)`
     width: 55%;
     height: 55%;
   }
+
+  :hover {
+    background-color: ${cores.cinzaFraco};
+  }
+
+  &#perfil {
+    align-itens: center;
+    justify-content: center;
+
+    height: 36px;
+    width: 36px;
+    img {
+      margin: 0;
+      padding: 0;
+
+      width: 85%;
+      height: 85%;
+    }
+  }
 `
 export const DivStart = styled.div`
   display: flex;

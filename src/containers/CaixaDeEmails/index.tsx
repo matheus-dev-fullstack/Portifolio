@@ -1,7 +1,12 @@
 import * as S from './styles'
+import HeaderInbox from '../../components/HeaderIndex'
 
 const CaixaDeEmails = () => {
-  return <S.Container>{/* <h1>Caixa de Emails</h1> */}</S.Container>
+  return (
+    <S.Container>
+      <HeaderInbox />
+    </S.Container>
+  )
 }
 
 export default CaixaDeEmails

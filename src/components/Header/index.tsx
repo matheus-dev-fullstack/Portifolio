@@ -38,7 +38,9 @@ const Header = () => {
           <S.ButtonsEnd title="Google Apps">
             <img src={maisIcon} alt="" />
           </S.ButtonsEnd>
-          <img src={perfil} id="imgPerfil" title="Perfil" alt="Perfil" />
+          <S.ButtonsEnd id="perfil" title="perfil">
+            <img src={perfil} id="imgPerfil" alt="Perfil" />
+          </S.ButtonsEnd>
         </S.DivEnd>
       </S.Container>
     </S.Header>

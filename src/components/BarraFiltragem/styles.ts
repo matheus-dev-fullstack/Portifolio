@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components'
 import { cores } from '../../styles'
+import { Button } from '../../styles'
 
 export const Aside = styled.aside`
   // background-color: #81ecec;
@@ -44,7 +45,7 @@ export const sendButton = styled.button`
       0 1px 3px 1px rgba(30, 30, 30, 0.3);
   }
 `
-export const Button = styled.button`
+export const ButtonAside = styled.button`
   display: flex;
   width: 240px;
   height: 32px;
@@ -83,6 +84,25 @@ export const Button = styled.button`
     }
   }
 `
-export const ButtonActive = styled(Button)`
-  background-color: ${cores.corSecundaria};
+export const DivEnd = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 28px;
+  padding: 0 6px 0 26px;
+  height: 20px;
+
+  h4 {
+    font-weight: 400;
+  }
+
+  button {
+    height: 35px;
+    width: 35px;
+
+    img {
+      height: 22px;
+      width: 22px;
+    }
+  }
 `
