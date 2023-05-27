@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './components/Header'
-import BarraLateral from './containers/BarraLateral'
+import BarraLateral from './components/BarraFiltragem'
 import { GlobalStyle } from './styles'
 import CaixaDeEmails from './containers/CaixaDeEmails'
 import * as S from './styles'
