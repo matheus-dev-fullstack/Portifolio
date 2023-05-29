@@ -39,7 +39,7 @@ const BarraLateral = () => {
           <p>Enviados</p>
           <span></span>
         </S.ButtonAside>
-        <S.ButtonAside>
+        <S.ButtonAside className="important">
           <img src={draft} alt="" />
           <p>Rascunhos</p>
           <span>32</span>
@@ -52,7 +52,7 @@ const BarraLateral = () => {
       </div>
       <S.DivEnd>
         <h4>Marcadores</h4>
-        <Button>
+        <Button title="Criar novo marcador">
           <img src={more} alt="" />
         </Button>
       </S.DivEnd>

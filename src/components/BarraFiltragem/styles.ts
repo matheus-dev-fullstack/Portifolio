@@ -1,6 +1,5 @@
 import styled, { css } from 'styled-components'
 import { cores } from '../../styles'
-import { Button } from '../../styles'
 
 export const Aside = styled.aside`
   // background-color: #81ecec;
@@ -74,6 +73,14 @@ export const ButtonAside = styled.button`
     margin-right: auto;
   }
 
+  &.important {
+    font-weight: 500;
+    span {
+      font-weight: 500;
+      color: #000;
+    }
+  }
+
   &.active {
     background-color: ${cores.corSecundaria};
     font-weight: 500;
@@ -84,13 +91,13 @@ export const ButtonAside = styled.button`
     }
   }
 `
+
 export const DivEnd = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 28px;
   padding: 0 6px 0 26px;
-  height: 20px;
 
   h4 {
     font-weight: 400;

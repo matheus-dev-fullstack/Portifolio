@@ -1,10 +1,18 @@
 import * as S from './styles'
-import HeaderInbox from '../../components/HeaderIndex'
+import HeaderInbox from '../../components/HeaderInbox'
+import InboxButtons from '../../components/InboxButtons'
+import Email from '../../components/Email'
 
 const CaixaDeEmails = () => {
   return (
     <S.Container>
-      <HeaderInbox />
+      <S.Header>
+        <HeaderInbox />
+        <InboxButtons />
+      </S.Header>
+      <S.Emails>
+        <Email />
+      </S.Emails>
     </S.Container>
   )
 }

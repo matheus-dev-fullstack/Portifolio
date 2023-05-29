@@ -9,6 +9,9 @@ export const Div = styled.div`
   align-items: center;
   height: 48px;
   justify-content: space-between;
+  // position: fixed;
+  // left: 250px;
+  // right: 52px;
 `
 export const DivButtons = styled.div`
   // background-color: #b3ffb3;
@@ -61,7 +64,7 @@ export const ButtonCircle = styled(Button)`
     margin-right: 8px;
   }
 
-  hover {
+  :hover {
     background-color: ${cores.corFundo};
   }
 `

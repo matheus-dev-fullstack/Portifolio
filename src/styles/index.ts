@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 export const cores = {
   corTexto: '#000',
+  corTextSecudario: '#808080',
   corFundo: '#f2f2f2',
   corSecundaria: '#d9d9d9',
   corPrincipal: '#f1f3f4',
@@ -21,6 +22,8 @@ export const GlobalStyle = createGlobalStyle`
     body{
       background-color:${cores.corPrincipal}
     }
+
+    overflow-y: hidden;
   }
 `
 export const MainContainer = styled.div`

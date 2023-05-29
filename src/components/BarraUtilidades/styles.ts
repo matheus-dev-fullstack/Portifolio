@@ -5,6 +5,7 @@ export const BarraLateral = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  // display: none;
 
   ${css`
     position: fixed;
