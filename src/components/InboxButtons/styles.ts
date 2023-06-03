@@ -12,6 +12,7 @@ export const Div = styled.div`
 `
 export const ButtonInbox = styled.button`
   background-color: ${cores.branco};
+  color: ${cores.corTexto};
   display: flex;
   height: 100%;
   width: 256px;

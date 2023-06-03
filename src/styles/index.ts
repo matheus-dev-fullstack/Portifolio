@@ -19,6 +19,10 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 
+    button {
+      cursor: pointer;
+    }
+
     body{
       background-color:${cores.corPrincipal}
     }

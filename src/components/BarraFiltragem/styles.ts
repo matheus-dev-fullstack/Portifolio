@@ -45,6 +45,8 @@ export const sendButton = styled.button`
   }
 `
 export const ButtonAside = styled.button`
+  background-color: ${cores.corFundo};
+  color: ${cores.corTexto};
   display: flex;
   width: 240px;
   height: 32px;
