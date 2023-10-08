@@ -6,7 +6,7 @@ export const cores = {
   corTextSecudario: '#808080',
   corFundo: '#f2f2f2',
   corSecundaria: '#d9d9d9',
-  corPrincipal: '#f1f3f4',
+  corPrincipal: '#222121',
   branco: '#fff',
   cinzaFraco: '#e6e6e6'
 }

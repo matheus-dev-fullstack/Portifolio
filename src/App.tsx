@@ -1,10 +1,7 @@
 import React from 'react'
 import Header from './components/Header'
-import BarraLateral from './components/BarraFiltragem'
 import { GlobalStyle } from './styles'
-import CaixaDeEmails from './containers/CaixaDeEmails'
 import * as S from './styles'
-import BarraUtilidades from './components/BarraUtilidades'
 
 function App() {
   return (
@@ -13,9 +10,9 @@ function App() {
       <div className="App">
         <Header />
         <S.MainContainer>
-          <BarraLateral />
+          {/* <BarraLateral />
           <CaixaDeEmails />
-          <BarraUtilidades />
+          <BarraUtilidades /> */}
         </S.MainContainer>
       </div>
     </>
