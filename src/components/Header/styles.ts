@@ -15,22 +15,25 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   align-content: center;
-  padding: 12px;
+  padding: 16px 0;
   margin: 0 40px;
 `
 export const TitleName = styled.h1`
   color: ${cores.branco};
-  font-family: 'Holiday', sans-serif;
+  font-family: 'Dwayne Dylan', sans-serif;
+  // font-family: 'Mowgli Script', sans-serif;
+  font-size: 34px;
 `
 
 export const Links = styled.ul`
   display: flex;
-  gap: 12px;
+  gap: 18px;
 `
 export const LintItem = styled.li`
-  font-size: 28px;
+  font-size: 24px;
 `
 export const Link = styled.a`
   color: ${cores.branco};
   text-decoration: none;
+  font-family: 'Megrim', cursive;
 `
