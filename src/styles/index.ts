@@ -31,10 +31,10 @@ export const GlobalStyle = createGlobalStyle`
   }
 `
 export const MainContainer = styled.div`
-  margin-top: 63px;
-  display: flex;
+  // margin-top: 80px;
+  margin: 80px auto 0 auto;
   flex-direction: row;
-  width: 100%;
+  width: 1200px;
   height: 100%;
 `
 export const Button = styled.button`

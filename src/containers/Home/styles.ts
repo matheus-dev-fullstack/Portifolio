@@ -3,7 +3,7 @@ import { cores } from '../../styles'
 
 export const Container = styled.div`
   background-color: #fdcb6e;
-  width: 100%;
+  max-width: 900px;
   height: 100vh;
   border-radius: 14px;
   margin: 0 52px 0 250px;

@@ -4,6 +4,7 @@ import { cores } from '../../styles'
 export const Header = styled.header`
   background-color: ${cores.corPrincipal};
   height: 63px;
+  margin-bottom: 90px;
   ${css`
     position: fixed;
     top: 0;

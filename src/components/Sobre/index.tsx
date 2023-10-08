@@ -1,28 +1,25 @@
-import * as S from './styles';
+import * as S from './styles'
 
 const Sobre = () => {
   return (
-    <section id="sobre">
-      <div>
-        <h1>Sobre</h1>
-
-        <div>
-          <span>Olá, eu sou Matheus,</span>
-
-          <p>
+    <S.Section id="sobre">
+      {/* <S.Title>Sobre</S.Title> */}
+      <S.Container>
+        <S.InfosDiv>
+          <S.Saudacao>Olá, eu sou Matheus,</S.Saudacao>
+          <S.Formacao>
             Front end Developer <br />E estudante de Engenharia de Software{' '}
-          </p>
-        </div>
-      </div>
+          </S.Formacao>
+        </S.InfosDiv>
+        <S.InfosDiv>
+          <S.ImgPerfil
+            src="https://www.danielluna.com.br/public/posts/mrrobot/mr-robot.png"
+            alt=""
+          />
+        </S.InfosDiv>
+      </S.Container>
+    </S.Section>
+  )
+}
 
-      <div>
-        <img
-          src="https://www.danielluna.com.br/public/posts/mrrobot/mr-robot.png"
-          alt=""
-        />
-      </div>
-    </section>
-  );
-};
-
-export default Sobre;
+export default Sobre
